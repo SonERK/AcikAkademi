@@ -25,6 +25,13 @@ namespace Ders4.Views
             }
         }
 
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            RefreshData();
+        }
+
         SQLiteManager manager;
         public ListPage()
         {
@@ -39,6 +46,14 @@ namespace Ders4.Views
         private void onMenuInsert(object sender, EventArgs e)
         {
             Navigation.PushAsync(new InsertPage());
+        }
+
+        private void onMenuUpdate(object sender, EventArgs e)
+        {
+            var selectedMenuItem = (MenuItem)sender;
+            var selectedStudent = manager.Get(Convert.ToInt32(selectedMenuItem
+                .CommandParameter));
+            Navigation.PushAsync(new UpdatePage(selectedStudent));
         }
 
         private void onMenuRefresh(object sender, EventArgs e)

@@ -21,6 +21,8 @@
                           IsDestructive="True" Clicked="onMenuDelete"></MenuItem>
                 <MenuItem CommandParameter="{Binding Id}" Text="Detay"
                           Clicked="onMenuDetail"></MenuItem>
+                <MenuItem CommandParameter="{Binding Id}" Text="Güncelle"
+                       Clicked="onMenuUpdate"></MenuItem>
               </TextCell.ContextActions>
               
             

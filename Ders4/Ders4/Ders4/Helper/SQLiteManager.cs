@@ -21,9 +21,9 @@ namespace Ders4.Helper
             return _sqlconnection.Insert(s);
         }
 
-        public int Update(Student s)
+        public bool Update(Student s)
         {
-            return _sqlconnection.Update(s);
+            return _sqlconnection.Update(s)>0;
         }
 
         public int Delete(int Id)

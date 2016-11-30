@@ -1,2 +1,2 @@
-C:\Users\Yigit\Documents\Visual Studio 2015\Projects\Ders4\Ders4\Ders4.WinPhone\Ders4.WinPhone.csproj;x86
-C:\Users\Yigit\Documents\Visual Studio 2015\Projects\Ders4\Ders4\Ders4\Ders4.csproj;neutral
+C:\Users\soner\Documents\GitHub\Ders4\AcikAkademi\Ders4\Ders4\Ders4.WinPhone\Ders4.WinPhone.csproj;x86
+C:\Users\soner\Documents\GitHub\Ders4\AcikAkademi\Ders4\Ders4\Ders4\Ders4.csproj;neutral

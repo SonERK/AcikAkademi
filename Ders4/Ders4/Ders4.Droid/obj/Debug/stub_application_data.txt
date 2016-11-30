@@ -1,2 +1,0 @@
-android.app.Application
-Ders4.Droid
